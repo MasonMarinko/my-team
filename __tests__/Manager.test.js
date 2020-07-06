@@ -1,15 +1,13 @@
-const Manager = require('../lib/Manager.js');
+  
+const Manager = require('../lib/Manager');
 
-test('creates a manager object', () => {
-    const manager = new Manager('Bob', "111", "test@gmail.com", "Manager", "999");
+test('Creates manager object', () => {
+    const manager = new Manager('Manager', 30302, 'manager@manage.com');
 
-    expect(manager.name).toBe('Bob');
-    expect(manager.id).toBe("111");
-    expect(manager.email).toBe("test@gmail.com");
-    expect(manager.role).toBe("Manager");
-    expect(manager.officeNumber).toBe("999");
-    expect(manager.getName()).toBe('Bob');
-    expect(manager.getId()).toBe('111');
-    expect(manager.getEmail()).toBe('test@gmail.com');
-    expect(manager.getRole()).toBe('Manager');
+    expect(manager.name).toBe('Manager');
+    expect(manager.id).toEqual(expect.any(Number));
+    expect(manager.email).toEqual(expect.any(String));
+    expect(manager.roleInfoType).toEqual(expect.any(String));
+    expect(manager.getRole()).toEqual(expect.any(String));
+    
 });
