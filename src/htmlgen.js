@@ -17,7 +17,9 @@ generateHtml = (team) => {
         if (err) {
             return console.log(err);
         } else {
-        return console.log("HTML file created! CTRL + Right Mouse Click this link './dist/my-team.html' and then press ALT + B!");
+        return console.log("1) Your team is made and ready to view!") +
+        console.log("2) CTRL + Right Mouse Click this link './dist/my-team.html'") + 
+        console.log("3) Then press ALT + B!")
         }
     });
     
