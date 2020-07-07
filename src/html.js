@@ -17,14 +17,14 @@ class Html{
 </head>
         
 <body>
-    <div class="text-white bg-dark pt-4 pb-4">
+    <div class="text-white bg-primary pt-4 pb-4">
         <div class="text-center">
-            <h1 class="">Team Profile</h1>
+            <h1 class="">My Team</h1>
         </div>
     </div>
     <div class="container">
         <div class="row pt-5">`;
-        // bottom potion of html template
+
         this.foot = 
             `    </div>
     </div>
@@ -42,7 +42,7 @@ class Html{
     createEmployeeCard = function(element) {
         let html = `    <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-5">
-                    <div class="card-header text-white bg-dark mb-3">
+                    <div class="card-header text-white bg-primary mb-3">
                         <h2>${element.name}</h2>
                         <h4>${element.role}<span class="pl-2">${element.roleIcon}</span></h4>
                     </div>
