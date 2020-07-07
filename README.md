@@ -1,4 +1,4 @@
-# my-team ![MIT Badge](https://img.shields.io/badge/License-MIT-brightgreen)
+# My Team ![MIT Badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ## Links
 
