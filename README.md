@@ -4,8 +4,6 @@
 
 Repository Link: https://github.com/masonmarinko/my-team
 
-Live URL Link: https://masonmarinko.github.io/my-team
-
 ## Description
 
 Using the command prompt the user will answer a series of questions about employees. These questions, once all answered will output their "team" in the form of an HTML file/website. File will be in dist folder.
