@@ -2,9 +2,9 @@
 
 ## Links
 
-Repository Link: https://github.com/masonmarinko/readme-generator
+Repository Link: https://github.com/masonmarinko/my-team
 
-Live URL Link: https://masonmarinko.github.io/readme-generator
+Live URL Link: https://masonmarinko.github.io/my-team
 
 ## Description
 
