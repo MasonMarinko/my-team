@@ -1,6 +1,6 @@
 class Html{
     constructor() {
-        // top portion of html template
+//============= Start of HTML Generation ======================//
         this.body = 
 `<!DOCTYPE html>
 <html>
@@ -37,8 +37,7 @@ class Html{
 </body>
 </html>`;
     }
-    // middle portion of html template
-    // populates bootstrap card template with employee object properties
+//============== creates employee cards based on input =============//
     createEmployeeCard = function(element) {
         let html = `    <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-5">

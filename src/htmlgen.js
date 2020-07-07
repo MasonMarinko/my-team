@@ -1,6 +1,6 @@
 const Html = require('./Html');
 const fs = require('fs');
-// create web page
+
 generateHtml = (team) => {
     let html = new Html();
     team.forEach(element => {
@@ -8,11 +8,11 @@ generateHtml = (team) => {
         `${html.body}
         ${html.createEmployeeCard(element)}`
     });
-    // add html footer to template
+//===================== add footer ====================//
     html.body = 
     `${html.body}
     ${html.foot}`;
-    // create new html file in ./dist folder
+//=============== Creates file, puts it in dist folder, also a note in command prompt on how to open in browser ==================//
     fs.writeFile('./dist/my-team.html', html.body, function (err) {
         if (err) {
             return console.log(err);
