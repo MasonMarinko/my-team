@@ -1,9 +1,8 @@
 const Html = require('./Html');
 const fs = require('fs');
-// create Html object
+// create web page
 generateHtml = (team) => {
     let html = new Html();
-    // pass each employee through createEmployeeCard to add to html template
     team.forEach(element => {
         html.body = 
         `${html.body}
@@ -18,7 +17,7 @@ generateHtml = (team) => {
         if (err) {
             return console.log(err);
         } else {
-        return console.log("HTML file created! CTRL + Right Mouse Click this link './dist/my-team.html'!");
+        return console.log("HTML file created! CTRL + Right Mouse Click this link './dist/my-team.html' and then press ALT + B!");
         }
     });
     
