@@ -51,7 +51,7 @@ class Html{
                             <li class="list-group-item">ID: ${element.id}</li>
                             <li class="list-group-item">Email: <a href="mailto:${element.email}">${element.email}</a>
                             </li>
-                            <li class="list-group-item">${element.roleInfoType}:
+                            <li class="list-group-item">Phone Number:
                                 ${element.roleInfo}
                             </li>
                         </ul>
