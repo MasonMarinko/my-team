@@ -2,4 +2,4 @@ const Team = require('./lib/Teambuild');
 
 
 
-new Team().createEmployee('manager', 'office number');
+new Team().createEmployee('Manager', 'office number');
