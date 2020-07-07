@@ -17,8 +17,12 @@ generateHtml = (team) => {
         if (err) {
             return console.log(err);
         } else {
-        return console.log("1) Your team is made and ready to view!") +
-        console.log("2) Go into the 'dist' folder and open 'my-team.html' in browser")
+        return console.log('===============================================')
+        + console.log('')
+        + console.log("1) Your team is made and ready to view!")
+        + console.log("2) Go into the 'dist' folder and open 'my-team.html' in browser")
+        + console.log('')
+        + console.log('===============================================')
         }
     });
     
