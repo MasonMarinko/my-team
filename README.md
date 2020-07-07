@@ -16,6 +16,8 @@ Using the command prompt the user will answer a series of questions about employ
 
 ## Video Demo
 
+ [Video Demo](https://youtu.be/KmWeR_OQQiE)
+
 ## Installation
 
 1. Download repository
