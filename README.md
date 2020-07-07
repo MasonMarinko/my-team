@@ -46,7 +46,7 @@ Using the command prompt the user will answer a series of questions about employ
 ![image](./images/completed.jpg)
 5) Once completed the user is told that the html is created and where to find it.
 
-![image](./images/final.jpg)
+![image](./images/final.png)
 6) Then the user is met with their web page based on answers (Actual results will vary based on user input and amount of employees).
 
 ## License
